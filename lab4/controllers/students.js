@@ -16,7 +16,7 @@ export const createStudent = (req, res) => {
 
     res.json({ message: 'Students array changed(create)' });
 
-    console.log(`createdAt : ${day2.toISOString()}`);
+    console.log(`createdAt : ${day1.toISOString()}`);
 };
 
 export const getStudent = (req, res) => {
